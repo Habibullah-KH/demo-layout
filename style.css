@@ -1,0 +1,242 @@
+*,
+*::before,
+*::after{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+
+}
+
+/** hero section/ navigation design */
+
+/** side text design section */
+
+.hero_area{
+
+  height: 52.313rem;
+  width: 100rem;
+  background: rgb(243, 248, 255);
+  position: relative;
+}
+
+.hero_area .rotate_text{
+
+  transform: rotate(-180deg);
+  writing-mode: vertical-lr;
+  position: absolute;
+  font-size: 4rem;
+  font-weight: 800;
+  /* margin-bottom: 5.5rem; */
+  top: 2%;
+  opacity: 0.2;
+  left: 1%;
+  letter-spacing: 1rem;
+  font-family: "Playfair Display", serif;
+ 
+}
+
+.hero_area nav{
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  /* position: relative; */
+  /* align-items: baseline; */
+}
+
+/** logo text design section */
+
+.hero_area nav h1{
+
+  font-size: 3rem;
+  margin-left: 9%;
+}
+
+.hero_area nav h1 span{
+  
+  color: #2290FF;
+}
+
+/** nav button design section */
+
+.hero_area nav ul{
+
+  display: flex;
+  margin-right: 9%;
+  list-style-type: none;
+  align-items: baseline;
+  /* justify-content: space-between; */
+}
+
+.hero_area nav ul li{
+
+  padding: 0.7rem 1rem;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  
+}
+
+.hero_area nav ul li a{
+  
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+
+.hero_area nav ul li:hover{
+
+  background-color: #2290FF;
+  
+}
+
+.hero_area nav ul li:hover a{
+
+  color: rgb(255, 255, 255);  
+  
+}
+
+.hero_area nav ul button{
+
+  padding: 0.7rem 1rem;
+  border: none;
+  color: black;
+  background: none;
+}
+
+.hero_area nav ul button a{
+  
+  text-decoration: none;
+  font-weight: bold;
+  /* background-color: rgb(243, 248, 255); */
+  
+}
+
+
+.hero_area nav ul button:hover{
+  
+  background-color: #2290FF;
+  color: rgb(255, 255, 255);
+  border-radius: 0.3rem;
+
+}
+
+
+.hero_area nav ul button:hover a{
+  
+  color: rgb(255, 255, 255);
+
+}
+/*! nav section end*/
+
+
+/** hero section main text & button */
+
+
+.hero_area .hero_text_image_container{
+
+  height: 46.5rem;
+  width: 100rem;
+  display: flex;
+}
+
+
+.hero_area .hero_text_section{
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 40%;
+  margin: 0 0 0 9%;
+  justify-content: center;
+}
+
+.hero_area .hero_text_section h3{
+
+  font-size: 2.813rem;
+  font-weight: 400;
+}
+
+.hero_area .hero_text_section h2{
+
+  font-size: 5.313rem;
+}
+
+.hero_area .hero_text_section p{
+
+  font-size: 1.125rem;
+  width: 40.666rem;
+}
+
+.hero_area .hero_text_section button{
+
+  padding: 0.8rem 1rem;
+  border: 1px solid #2290FF;
+  background: none;
+  color: #2290FF;
+  border-radius: 0.2rem;
+  margin: 1rem 0.8rem 0 0;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+
+/* .hero_area .hero_text_section .button:hover .btn2 {
+  background-color: #2290FF;
+  color: white;
+} */
+
+
+.hero_area .hero_text_section button:hover{
+
+  background-color: #2290FF;
+  color: white;
+  cursor: pointer;
+
+}
+
+
+/** image customization */
+
+
+.hero_area .hero_image_section{
+
+  height: 46.1rem;
+  width: 60%;
+  position: relative;
+}
+
+.hero_text_image_container .glow{
+
+  width: 120%;
+  height: auto;
+  position: relative;
+  bottom: -22%;
+  right: 5%;
+}
+
+.hero_text_image_container .person{
+  
+  width: 50%;
+  position: absolute;
+  bottom: 0%;
+  right: 1%;
+  z-index: 1;
+ 
+
+
+}
+
+
