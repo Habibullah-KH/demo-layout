@@ -53,6 +53,7 @@ body{
   display: flex;
   justify-content: space-between;
   padding-top: 2rem;
+  width: 100rem;
   /* position: relative; */
   /* align-items: baseline; */
 }
