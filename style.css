@@ -32,7 +32,7 @@ body{
 .hero_area{
 
   height: 52.313rem;
-  width: 90%;
+  width: 100rem;
   margin: 0px auto;
   background: rgb(243, 248, 255);
   position: relative;
@@ -237,9 +237,10 @@ body{
 
 main{
 
-  width: 60%;
+  width: 60rem;
   height: 75rem;
-  margin: 0 auto;
+
+
   /*? border: 2px solid red; */
 
 }
@@ -375,10 +376,12 @@ footer{
 
   /* border: 2px solid red; */
   height: 40rem;
+  width: 100rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgb(243, 248, 255);
+  margin: 0px auto;
 }
 
 
