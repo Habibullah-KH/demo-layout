@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 
-/*TODO  READ: In this code you find comented border, I use it to find out the full area of a item */
+/*TODO  READ: In this code you find comented border, I use it to find out the full area of a item. (❁´◡`❁)  It cose some problem when you uncomment it you need to remove the special symbol->(!, *, ?, TODO) also, if not it give you a fantastic error 😊  (^///^)  */
 
 
 /*TODO  READ: In this code i use some special symbol like (!, *, ?, TODO) this symbol make comment more beautiful and easy to see, if run this code on Vs code then install "BETTER COMMENT" extension to see comment better, Thank you  */
@@ -237,9 +237,11 @@ body{
 
 main{
 
-  width: 60rem;
+  width: 100rem;
   height: 75rem;
   margin: 0px auto;
+  /** border: 1px solid red; */
+  padding: 10rem;
 
 
   /*? border: 2px solid red; */
@@ -249,7 +251,7 @@ main{
 
 main .about_me{
 
-  /*? border: 2px solid lime; */
+  /** border: 2px solid lime; */
   margin: 4rem;
   padding: 4rem;
   background-color: rgb(243, 248, 255);
@@ -260,7 +262,7 @@ main .about_me{
 
 main .about_me .text_container{
 
-  /*? border: 2px solid rgb(255, 217, 0); */
+  /** border: 2px solid rgb(255, 217, 0); */
 
   background-color: white; 
   text-align: center;
