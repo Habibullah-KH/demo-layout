@@ -21,6 +21,7 @@
 body{
 
   font-family: "Open Sans", sans-serif;
+  
 
 }
 
@@ -35,6 +36,8 @@ body{
   margin: 0px auto;
   background: rgb(243, 248, 255);
   position: relative;
+  overflow: hidden;
+
 }
 
 .hero_area .rotate_text{
@@ -154,6 +157,7 @@ body{
   height: 46.5rem;
   width: 100rem;
   display: flex;
+  
 }
 
 
@@ -214,6 +218,7 @@ body{
   height: 46.1rem;
   width: 60%;
   position: relative;
+  
 }
 
 .hero_text_image_container .glow{
@@ -222,7 +227,8 @@ body{
   height: auto;
   position: absolute;
   bottom: 2%;
-  right: 5%;
+  right: 20%;
+  
 }
 
 
@@ -232,7 +238,7 @@ body{
 main{
 
   width: 60%;
-  height: 32rem;
+  height: 75rem;
   margin: 0 auto;
   /*? border: 2px solid red; */
 
@@ -243,8 +249,9 @@ main .about_me{
 
   /*? border: 2px solid lime; */
   margin: 4rem;
-  padding: 5rem;
+  padding: 4rem;
   background-color: rgb(243, 248, 255);
+  border-radius: 1rem;
 
 }
 
@@ -255,6 +262,9 @@ main .about_me .text_container{
 
   background-color: white; 
   text-align: center;
+  border-radius: 1rem;
+  padding: 1.5rem;
+
 
 }
 
@@ -333,6 +343,7 @@ main .my_skills .skill_sets_area{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 2rem;
+  margin-bottom: 10rem;
 }
 
 main .my_skills .skills{
@@ -352,5 +363,105 @@ main .my_skills .skills i{
 
   font-size: 1.8rem;
   padding: 0 0 1rem 0;
+}
+
+/*! main content end */
+
+
+/** footer section start */
+
+
+footer{
+
+  /* border: 2px solid red; */
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(243, 248, 255);
+}
+
+
+footer .foot_social_area{
+
+  /* border: 2px solid rgb(60, 255, 0); */
+  width: 45%;
+  margin-left: 5rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+footer .foot_social_area h3{
+
+  font-size: 2.188rem;
+  
+}
+
+
+footer .foot_social_area i{
+
+  font-size: 1.5rem;
+  padding-right: 0.6rem;
+  color: #2290FF;
+  
+}
+
+
+footer .foot_foram_area{
+
+  /* border: 2px solid blue; */
+  width: 45%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding:0 0 0 2rem;
+}
+
+
+footer .foot_foram_area form input{
+  
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  width: 70%;
+  border-radius: 0.8rem;
+  border: none;
+  
+}
+
+
+footer .foot_foram_area form textarea{
+  
+  width: 70%;
+  height: 8rem;
+  border-radius: 0.8rem;
+  border: none;
+}
+
+footer .foot_foram_area button{
+  
+  width: 7rem;
+  margin: 2rem 0 0 0;
+  padding: 0.7rem 2rem;
+  border: 1px solid #2290FF;
+  border-radius: 0.4rem;
+  background-color: aliceblue;
+}
+
+footer .foot_foram_area button:hover{
+  
+  
+  background-color: #2290FF;
+  color: white;
+}
+
+footer .foot_foram_area h3{
+  
+  margin-bottom: 1.5rem;
+  font-size: 2.188rem;
+
 }
 
