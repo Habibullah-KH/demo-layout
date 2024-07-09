@@ -12,11 +12,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+
+/*TODO  READ: In this code you find comented border, I use it to find out the full area of a item */
+
+
+/*TODO  READ: In this code i use some special symbol like (!, *, ?, TODO) this symbol make comment more beautiful and easy to see, if run this code on Vs code then install "BETTER COMMENT" extension to see comment better, Thank you  */
+
 body{
 
   font-family: "Open Sans", sans-serif;
-  display: flex;
-  justify-content: center;
 
 }
 
@@ -27,7 +31,8 @@ body{
 .hero_area{
 
   height: 52.313rem;
-  width: 100rem;
+  width: 90%;
+  margin: 0px auto;
   background: rgb(243, 248, 255);
   position: relative;
 }
@@ -39,7 +44,7 @@ body{
   position: absolute;
   font-size: 4rem;
   font-weight: 800;
-  /* margin-bottom: 5.5rem; */
+  margin-bottom: 5.5rem;
   top: 2%;
   opacity: 0.2;
   left: 1%;
@@ -54,8 +59,7 @@ body{
   justify-content: space-between;
   padding-top: 2rem;
   width: 100rem;
-  /* position: relative; */
-  /* align-items: baseline; */
+
 }
 
 /** logo text design section */
@@ -79,7 +83,6 @@ body{
   margin-right: 9%;
   list-style-type: none;
   align-items: baseline;
-  /* justify-content: space-between; */
 }
 
 .hero_area nav ul li{
@@ -121,7 +124,7 @@ body{
   
   text-decoration: none;
   font-weight: bold;
-  /* background-color: rgb(243, 248, 255); */
+  /*? background-color: rgb(243, 248, 255); */
   
 }
 
@@ -194,12 +197,6 @@ body{
 }
 
 
-/* .hero_area .hero_text_section .button:hover .btn2 {
-  background-color: #2290FF;
-  color: white;
-} */
-
-
 .hero_area .hero_text_section button:hover{
 
   background-color: #2290FF;
@@ -227,17 +224,133 @@ body{
   bottom: 2%;
   right: 5%;
 }
-/* 
-.hero_text_image_container .person{
+
+
+/** main area start */
+
+
+main{
+
+  width: 60%;
+  height: 32rem;
+  margin: 0 auto;
+  /*? border: 2px solid red; */
+
+}
+
+
+main .about_me{
+
+  /*? border: 2px solid lime; */
+  margin: 4rem;
+  padding: 5rem;
+  background-color: rgb(243, 248, 255);
+
+}
+
+
+main .about_me .text_container{
+
+  /*? border: 2px solid rgb(255, 217, 0); */
+
+  background-color: white; 
+  text-align: center;
+
+}
+
+
+main .about_me .text_container h3{
+
+  margin-bottom: 2.7rem;
+  font-size: 2rem;
+
+}
+
+
+main .about_me .text_container p{
+
+  margin-bottom: 2.7rem;
+
+}
+
+
+main .about_me .text_container table{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+main .about_me .text_container table tr th{
+
+  padding: 0 1rem;
+
+}
+
+/** skills section start */
+
+
+main .my_skills{
+
+  /** border: 2px solid red; */
+  height: 14rem;
+  padding: 2rem;
+}
+
+
+main .my_skills .text_area{
+
+  /** border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+
   
-  width: 50%;
-  position: absolute;
-  bottom: 0%;
-  right: 1%;
-  z-index: 1;
- 
+}
 
 
-} */
+main .my_skills .text_area h3{
 
+  padding: 0 0 1rem 0;
+  font-size: 2rem;
+}
+
+
+main .my_skills .text_area p{
+
+  /** border: 2px solid lime; */
+  width: 53rem;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+main .my_skills .skill_sets_area{
+
+  /** border: 2px solid rgb(255, 0, 221); */
+  height: 20rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+}
+
+main .my_skills .skills{
+
+  line-height: 1.5rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+main .my_skills .skills h4{
+
+  font-size: 1rem;
+  padding: 0 0 1rem 0;
+}
+
+main .my_skills .skills i{
+
+  font-size: 1.8rem;
+  padding: 0 0 1rem 0;
+}
 
